@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Manikandan B} % Your name
+\address{5/130, Aravindar Layout, Udumalpet, Tamilnadu 642126 } % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+91)6369032947 \\ manikandabalu535@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Governement Arts College, Udumalpet} \hfill {\em June 2023 - Present} 
+\\ Bachelor of Science
+\\ Department of Computer Science\\
+\\{\bf Govt Boys Higher Sec. School, Udumalpet} \hfill {\em June 2022 - June 2023} 
+\\ \hfill { Overall Percentage: 73.80 }
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+\begin{rSection}{Carreer Objective}
+ Aspiring Java Developer eager to build efficient applications and enhance technical expertise while growing along with the organization’s objectives.
+\end{rSection}
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+{\bf ATM Management System (Java, Collections Framework)}
+\\Developed a console-based ATM system using Java and ArrayList for storing user data.
+Implemented core banking operations such as balance inquiry, deposit, withdrawal, and PIN verification.\\
+\\{\bf Portfolio Website (HTML, CSS, JavaScript)}\\
+Designed and developed an interactive personal portfolio website to present projects and skills.
+Implemented responsive design for smooth viewing across both mobile and desktop devices.\\
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Skills }
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Java \\
+Web Technologies & HTML, CSS, JavaScript (Basics) \\
+Tools \& Platforms & GitHub \\
+Database & MySQL \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Certfications}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Java Programming Certification & Infosys Springboard \\
+Web Development Fundamentals & Edunet Foundation \\
+English Communication & STEP \\
+
+\end{tabular}
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Languages Known} \itemsep -3pt
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Tamil & Native  \\
+English & Intermediate \\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Declaration}
+I confirm that the information provided above is correct to the best of my knowledge, and I am confident in my ability to contribute effectively to your organization.
+\end{rSection}
+\end{document}
